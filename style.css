@@ -12,46 +12,176 @@
     
     
 }
+.logo1{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 .wrappercontent1 {
     padding-left: 50px;
     padding-top: 16px;
+    font-size: 150%;
 
 }
 .wrappercontent2 {
     padding-left: 50px;
     padding-top: 16px;
+    font-size: 150%;
 }
 .wrappercontent3 {
     padding-left: 50px;
     padding-top: 16px;
+    font-size: 150%;
 }
 
 .wrapper2 {
+    height: 700px;
     display: flex;
+    flex-direction: column;
+    background: url(/img/main.jpg);
+    height: 700px;
 }
+.travel{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    padding-top: 250px;
+   
+}
+.travel2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.travel3{
+    color: white;
+    border-color: rgb(49, 22, 114) ;
+    background: rgb(49, 22, 114);
+    width: 250px;
+    padding: 10px;
+    font-size: 150%;
+    box-shadow: white;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+.messenger1{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 264px;
+}
+.vk{
+    padding-right: 10px;
+}
+.fb{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.inst{
+    padding-left: 10px;
+}
+
 .wrapper3 {
 background-color: rgb(49, 22, 114);
 display: flex;
 color: white;
 justify-content: center;
+font-size: xx-large;
 }
 .wrapper4 {
     padding: 30px 30px 30px 30px;
     border: 2px solid rgb(49, 22, 114) ;
 }
+.wrapperpalm {
+    width: 1196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(49, 22, 114) ;
+}
 
-.wrapper5 {
-    background-color: rgb(49, 22, 114);
+.wrappergrid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid rgb(49, 22, 114) ;
+    width: 99%;
+    padding-top: 40px;
+    
+}
+.text2{
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.text {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.text4 {
+    margin-top: 10px;
+}
+.wrapper5grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+    background: linear-gradient(to top, #053d0a 20%, #34ce6f 50%, #326828 80%);
     color: white;
-    margin-top: -17px;
-    padding: 30px 30px 30px 30px;
+}
+
+p{
+    grid-column: 1/1;
 }
 
 .wrapper5content1{
 color: rgb(236, 214, 15);
-font-size: 250%;
-margin-bottom: 10px;
+font-size: 200%;
+margin-bottom: 5px;
+grid-column: 1/1;
+
 }
 .wrapper5content2{
 color: rgb(236, 214, 15);
+grid-column: 1/1;
+}
+.wrapper5content3{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    grid-column: 3/3;
+    margin-top: -220px;
+}
+.logo{
+    text-align: center;
+    margin-top: -150px;
+    grid-column: 2/2;
+}
+.dline{
+    line-height: 40px;
+}
+.messenger{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 25px;
+    grid-column: 1/1;
+}
+
+.adres{
+    padding-left: 30px;
 }
